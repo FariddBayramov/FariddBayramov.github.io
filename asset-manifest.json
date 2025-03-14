@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "//FariddBayramov.github.io/static/css/main.99b5cac1.css",
+    "main.js": "//FariddBayramov.github.io/static/js/main.848120e6.js",
+    "static/media/mongodb-plain-wordmark.svg": "//FariddBayramov.github.io/static/media/mongodb-plain-wordmark.8b657991311ca1344b2d265b351178fc.svg",
+    "static/media/mysql-plain-wordmark.svg": "//FariddBayramov.github.io/static/media/mysql-plain-wordmark.f7e9c94f90a7b676378647bdd86e7289.svg",
+    "static/media/react-original-wordmark.svg": "//FariddBayramov.github.io/static/media/react-original-wordmark.e709ad23de87c603d62af12011c45c18.svg",
+    "static/media/nodejs-plain-wordmark.svg": "//FariddBayramov.github.io/static/media/nodejs-plain-wordmark.0900741d947933168c7dd59f759ea2e4.svg",
+    "static/media/graphql.svg": "//FariddBayramov.github.io/static/media/graphql.2907f8f833884f0c1be65ef4e65fe57e.svg",
+    "static/media/java-plain-wordmark.svg": "//FariddBayramov.github.io/static/media/java-plain-wordmark.89f3624b2db1db5a2b1ca0d828fe5e91.svg",
+    "index.html": "//FariddBayramov.github.io/index.html",
+    "static/media/angularjs-plain-wordmark.svg": "//FariddBayramov.github.io/static/media/angularjs-plain-wordmark.2a4dd1c66b601e29c4ae7ca466472c8d.svg",
+    "static/media/php-plain.svg": "//FariddBayramov.github.io/static/media/php-plain.ce736a2b646197d247377a3faa7bec6e.svg",
+    "static/media/javascript-plain.svg": "//FariddBayramov.github.io/static/media/javascript-plain.80bd6e098c16fcf66c146d37ec16f586.svg",
+    "static/media/typescript-plain.svg": "//FariddBayramov.github.io/static/media/typescript-plain.ca2d55c20c6a9ed7f215c7237902ac10.svg",
+    "static/media/cplusplus-plain.svg": "//FariddBayramov.github.io/static/media/cplusplus-plain.6a0ebc4be5cc3a0348eade53bb9f1cb4.svg",
+    "static/media/linkedin.svg": "//FariddBayramov.github.io/static/media/linkedin.1b1c0c47c58484ab712f2c5c1abeda7e.svg",
+    "static/media/github.svg": "//FariddBayramov.github.io/static/media/github.cac1f48589d86255d678fb4baff955f7.svg",
+    "static/media/facebook.svg": "//FariddBayramov.github.io/static/media/facebook.711db6dd38ffb1aba7d5f4c7197e7523.svg",
+    "main.99b5cac1.css.map": "//FariddBayramov.github.io/static/css/main.99b5cac1.css.map",
+    "main.848120e6.js.map": "//FariddBayramov.github.io/static/js/main.848120e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99b5cac1.css",
+    "static/js/main.848120e6.js"
+  ]
+}
