@@ -270,7 +270,7 @@ const CustomSectionsConfig = [
         extraClass: 'about-section section-reverse',
         content: (
             <>
-                <h4>{Icons['helpoutline']} who is this guy?</h4>
+                <h4>{Icons['helpoutline']} who is this 1 guy?</h4>
                 <p> <div style={{border:"1px solid",padding:"10px"}}>
                 I build clean, scalable, and user-friendly web applications using React.js, TypeScript, and Redux Toolkit. As a final-year Computer Engineering student at Marmara University, I blend academic knowledge with hands-on experience. With a background in teaching mathematics, I’ve honed my problem-solving and communication skills, which now fuel my passion for web development. I’m also deeply interested in data science and cybersecurity, always eager to explore new technologies and innovative solutions.
                 </div></p>
