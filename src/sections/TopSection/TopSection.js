@@ -25,12 +25,14 @@ class TopSection extends React.Component {
                     <p>{CommonConfig.tagline}</p>
                 </div>
                 <div className="signature">
-                    <svg viewBox={CommonConfig.signature?.viewBox}>
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" stroke='currentColor'  strokeWidth={'14px'} viewBox={CommonConfig.signature?.viewBox}
+                    preserveAspectRatio="xMidYMid meet">
+                    <g transform="translate(0.000000,141.000000) scale(0.100000,-0.100000)"  >
                         <path ref={pathElement => {
                             this.pathElement = pathElement;
-                        }} id="signature-path" stroke="var(--text-primary)" fill="none"
+                        }} id="signature-path" stroke="currentColor" strokeWidth={'14px'} fill="none"
                             d={CommonConfig.signature?.signaturePathD} />
-                    </svg>
+                    </g></svg>
                 </div>
                 <div className="social">
                     {CommonConfig.social.map((socialDetails, index) => {

@@ -26,7 +26,8 @@ import { ReactComponent as PHPIcon } from '../assets/icons/php-plain.svg';
 import { ReactComponent as ReactIcon } from '../assets/icons/react-original-wordmark.svg';
 import { ReactComponent as TypeScriptIcon } from '../assets/icons/typescript-plain.svg';
 import { ReactComponent as GraphQLIcon } from '../assets/icons/graphql.svg';
-// import { ReactComponent as PythonIcon } from '../assets/icons/python_icon.svg';
+import { ReactComponent as PythonIcon } from '../assets/icons/python-plain-wordmark.svg';
+import {ReactComponent as PowerBIIcon} from '../assets/icons/icons8-power-bi.svg'
 // import { ReactComponent as PostgreSQLIcon } from '../assets/icons/postgresql.svg';
 // import { ReactComponent as CProgrammingIcon } from '../assets/icons/c-plain.svg';
 // import { ReactComponent as AgileIcon } from '../assets/icons/agile.svg';
@@ -49,6 +50,8 @@ import { ReactComponent as GraphQLIcon } from '../assets/icons/graphql.svg';
 // import { ReactComponent as AxiosIcon } from '../assets/icons/axios.svg';
 // import { ReactComponent as SwaggerIcon } from '../assets/icons/swagger.svg';
 // import { ReactComponent as FigmaIcon } from '../assets/icons/figma.svg';
+ import {ReactComponent as JiraIcon} from '../assets/icons/jira-svgrepo-com.svg'
+ import {ReactComponent as ClickUpIcon} from '../assets/icons/clickup-svgrepo-com.svg'
 // ICONS END
 
 /** Default icons */
@@ -76,7 +79,8 @@ const Icons = {
     code: <CodeIcon />,
     link: <LinkIcon />,
     web: <WebIcon />,
-    // python: <SvgIcon component={PythonIcon} viewBox="0 0 128 128" fontSize="large" title="Python" />,
+    python: <SvgIcon component={PythonIcon} viewBox="0 0 128 128" fontSize="large" title="Python" />,
+    clickUp: <SvgIcon component={ClickUpIcon} viewBox='0 0 128 128' fontSize='large' title='ClickUp'/>,
     // postgresql: <SvgIcon component={PostgreSQLIcon} viewBox="0 0 128 128" fontSize="large" title="PostgreSQL" />,
     // c: <SvgIcon component={CProgrammingIcon} viewBox="0 0 128 128" fontSize="large" title="C" />,
     // agile: <SvgIcon component={AgileIcon} viewBox="0 0 128 128" fontSize="large" title="Agile" />,
@@ -99,6 +103,8 @@ const Icons = {
     // axios: <SvgIcon component={AxiosIcon} viewBox="0 0 128 128" fontSize="large" title="Axios" />,
     // swagger: <SvgIcon component={SwaggerIcon} viewBox="0 0 128 128" fontSize="large" title="Swagger" />,
     // figma: <SvgIcon component={FigmaIcon} viewBox="0 0 128 128" fontSize="large" title="Figma" />
+    jira: <SvgIcon component={JiraIcon} viewBox='0 0 128 128' fontSize='large' title='Jira'/>,
+    powerBi: <SvgIcon component={PowerBIIcon} viewBox='30 -10 18 60' fontSize='large' title='Power BI'/>
 };
 
 
