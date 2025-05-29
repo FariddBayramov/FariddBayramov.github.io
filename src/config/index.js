@@ -337,6 +337,7 @@ Curious by nature and grounded in problem-solving, I aim to build meaningful sys
             &nbsp; 
             <i class="devicon-matplotlib-plain" title='tensorflow' style={{fontSize:"45px"}}></i>
             &nbsp; 
+            <br></br>
             <span style={{fontSize:"10px"}} title='Power BI'>Power</span>
             <span style={{fontSize:"20px"}} title='Power BI'>BI</span>
             &nbsp; 
@@ -364,7 +365,7 @@ Curious by nature and grounded in problem-solving, I aim to build meaningful sys
 
             <i class="devicon-redux-original" title='Redux' style={{fontSize:"45px"}}></i>
             &nbsp; 
-           
+           <br></br>
             <i class="devicon-reactrouter-plain-wordmark" title='React Router' style={{fontSize:"45px"}}></i>
             &nbsp; 
             <i class="devicon-materialui-plain" title='Material UI' style={{fontSize:"45px"}}></i>
