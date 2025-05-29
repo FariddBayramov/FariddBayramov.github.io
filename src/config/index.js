@@ -1,21 +1,17 @@
-import React from 'react';
 
 import { Icons } from './icons';
 
 // CUSTOM ICONS
-import SettingsInputAntennaIcon from '@material-ui/icons/SettingsInputAntenna';
-import WbIridescentIcon from '@material-ui/icons/WbIridescent';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import ComputerIcon from '@material-ui/icons/Computer';
 import InfoIcon from '@material-ui/icons/Info';
-import RateReviewIcon from '@material-ui/icons/RateReview';
-import Description from '@material-ui/icons/Description';
 import WorkIcon from '@material-ui/icons/Work';
 import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
 import DevicesIcon from '@material-ui/icons/Devices';
 import FunctionsIcon from '@material-ui/icons/Functions';
 import SchoolIcon from '@material-ui/icons/School';
 import DescriptionIcon from '@material-ui/icons/Description';
+import  MusicNoteOutlined  from '@material-ui/icons/MusicNoteOutlined';
 import MovieIcon from '@material-ui/icons/Movie';
 import EventSeatIcon from '@material-ui/icons/EventSeat';
 import AssignmentIcon from '@material-ui/icons/Assignment';
@@ -32,7 +28,7 @@ const CommonConfig = {
   
     name: 'Farid Bayramov',
     // Tagline that will be displayed after the name
-    tagline: 'front end developer',
+    tagline: 'junior data scientist | front end developer',
     // Configuration for signature in the top section
     signature: {
         // Viewbox of the signature SVG
@@ -120,11 +116,11 @@ c79 -2 119 -7 131 -17z M1720 939 c-8 -14 -9 -24 -2 -31 14 -14 32 -1 32 22 0 28 -
             name: 'Email',
             link: 'mailto:faridd.bayramov.@gmail.com'
         },
-        {
-            name: 'CV',
-            link: 'https://docs.google.com/document/d/1jPq0NQAoumXRk2M00JBsdRkHs5cL00ecYJ1nlhumTHw/edit?tab=t.0',
-            icon: <Description />
-        }
+        // {
+        //     name: 'CV',
+        //     link: 'https://docs.google.com/document/d/1jPq0NQAoumXRk2M00JBsdRkHs5cL00ecYJ1nlhumTHw/edit?tab=t.0',
+        //     icon: <Description />
+        // }
     ]
 };
 
@@ -136,7 +132,53 @@ const ProjectsConfig = {
     extraClass: '0',
     // Projects
     projects: [
+
+
         {
+
+            
+            // Name of the project
+            name: 'Spatial Data Analysis for Wealth Scoring and Multi-Persona Modeling',
+            // Icon of the project
+            icon: <DescriptionIcon/>,
+            // Description of the project
+            description: 'This project leveraged spatial and behavioral big data to calculate individual wealth scores and assign multiple lifestyle personas. Using K-Means clustering, BallTree, and Haversine distance, it modeled wealth based on income, mobility, and lifestyle patterns. Six diverse spatial datasets were integrated, and results were visualized through interactive maps to highlight behavioral insights beyond basic demographics.',
+            // Links to the project
+            links: [
+                {
+                    // Tooltip of the link
+                    tooltip: 'See source',
+                    // Link URL
+                    link: 'https://github.com/FariddBayramov/MonstrAI_Hackathon',
+                    // Icon of the button
+                    icon: Icons['code']
+                }
+            ]
+        },
+        {
+
+            
+            // Name of the project
+            name: 'HandMusicVision - Hand Gesture Music Player',
+            // Icon of the project
+            icon: <MusicNoteOutlined/>,
+            // Description of the project
+            description: 'HandMusicVision is a real-time app that turns 21 hand landmarks tracked via MediaPipe and OpenCV into 7 unique gestures. These gestures are recognized by a trained machine learning model and mapped to 7 musical notes (A–G) played through Pygame. The user-friendly interface allows recording, saving, and replaying melodies, and supports custom data collection to train new gestures.',
+            // Links to the project
+            links: [
+                {
+                    // Tooltip of the link
+                    tooltip: 'See source',
+                    // Link URL
+                    link: 'https://github.com/FariddBayramov/HandMusicVision',
+                    // Icon of the button
+                    icon: Icons['code']
+                }
+            ]
+        },
+        {
+
+            
             // Name of the project
             name: 'Film Script Generator AI',
             // Icon of the project
@@ -155,6 +197,7 @@ const ProjectsConfig = {
                 }
             ]
         },
+        
         {
             name: 'Payroll automation',
             icon: <BusinessCenterIcon />,
@@ -272,12 +315,42 @@ const CustomSectionsConfig = [
             <>
                 <h4>{Icons['helpoutline']} who is this guy?</h4>
                 <p> <div style={{border:"1px solid",padding:"10px"}}>
-                I build clean, scalable, and user-friendly web applications using React.js, TypeScript, and Redux Toolkit. As a final-year Computer Engineering student at Marmara University, I blend academic knowledge with hands-on experience. With a background in teaching mathematics, I’ve honed my problem-solving and communication skills, which now fuel my passion for web development. I’m also deeply interested in data science and cybersecurity, always eager to explore new technologies and innovative solutions.
+                I’m a final-year Computer Engineering student at Marmara University with a strong focus on Machine Learning, Deep Learning, and RAG (Retrieval-Augmented Generation) systems. I build data-driven solutions that merge algorithmic intelligence with practical impact.
+
+My expertise includes data preprocessing, feature engineering, and model development using Python, Scikit-learn, TensorFlow, and PyTorch. I also create clear, impactful data visualizations with Matplotlib, Seaborn, and Plotly.
+
+In parallel, I have hands-on experience in Front-End Development with React.js, TypeScript, and Redux Toolkit, crafting interfaces that transform insights into action.
+
+Curious by nature and grounded in problem-solving, I aim to build meaningful systems at the intersection of data and experience.
                 </div></p>
                 
                 <h4>{Icons['code']} software skills</h4>
                 <h1 className="programming-icons">
                     
+                    <i class="devicon-python-plain" title='Python' style={{fontSize:"45px"}}></i>
+            &nbsp; 
+        <span style={{fontSize:"20px"}} title='Power BI'>ML/DL</span>
+         &nbsp; 
+            <i class="devicon-scikitlearn-plain" title='scikitlearn' style={{fontSize:"45px"}}></i>
+            &nbsp; 
+            <i class="devicon-tensorflow-original" title='tensorflow' style={{fontSize:"45px"}}></i>
+            &nbsp; 
+            <i class="devicon-matplotlib-plain" title='tensorflow' style={{fontSize:"45px"}}></i>
+            &nbsp; 
+            <span style={{fontSize:"10px"}} title='Power BI'>Power</span>
+            <span style={{fontSize:"20px"}} title='Power BI'>BI</span>
+            &nbsp; 
+             <i class="devicon-microsoftsqlserver-plain-wordmark" title='MS Sql' style={{fontSize:"45px"}}></i>
+             &nbsp; 
+               <i class="devicon-keras-plain-wordmark" title='Keras' style={{fontSize:"45px"}}></i>
+            &nbsp; 
+            <i class="devicon-numpy-plain-wordmark" title='NumPy' style={{fontSize:"45px"}}></i>
+            &nbsp; 
+              <i class="devicon-postgresql-plain" title='Postgre Sql' style={{fontSize:"45px"}}></i>
+            &nbsp;
+            <br></br>
+
+
             <i class="devicon-html5-plain-wordmark" title='Html' style={{fontSize:"45px"}}></i>
             &nbsp; 
             <i class="devicon-css3-plain-wordmark" title='Css' style={{fontSize:"45px"}}></i>
@@ -287,7 +360,8 @@ const CustomSectionsConfig = [
             <i class="devicon-typescript-plain" title='Typescript' style={{fontSize:"45px"}}></i>
             &nbsp; 
             <i class="devicon-react-original" title='React' style={{fontSize:"45px"}}></i>
-            <br></br>
+            
+
             <i class="devicon-redux-original" title='Redux' style={{fontSize:"45px"}}></i>
             &nbsp; 
            
@@ -298,29 +372,19 @@ const CustomSectionsConfig = [
             <i class="devicon-axios-plain-wordmark" title='Axios' style={{fontSize:"45px"}}></i>
             &nbsp; 
             <i class="devicon-swagger-plain-wordmark" title='Swagger' style={{fontSize:"45px"}}></i>
-            <br></br>
+          
             <i class="devicon-figma-plain" title='Figma' style={{fontSize:"45px"}}></i>
             &nbsp; 
-            <i class="devicon-c-plain" title='C ' style={{fontSize:"45px"}}></i>
-            &nbsp; 
-            <i class="devicon-python-plain" title='Python' style={{fontSize:"45px"}}></i>
-            &nbsp; 
-            <i class="devicon-java-plain-wordmark" title='Java' style={{fontSize:"45px"}}></i>
-            &nbsp; 
-            <span style={{fontSize:"10px"}} title='Power BI'>Power</span>
-            <span style={{fontSize:"20px"}} title='Power BI'>BI</span>
-            
+              
+                     
             <br></br> 
-            <i class="devicon-microsoftsqlserver-plain-wordmark" title='MS Sql' style={{fontSize:"45px"}}></i>
-            
-            <i class="devicon-postgresql-plain" title='Postgre Sql' style={{fontSize:"45px"}}></i>
-            &nbsp; 
+           
+            <i class="devicon-java-plain-wordmark" title='Java' style={{fontSize:"45px"}}></i>
+            &nbsp;  
             <i class="devicon-matlab-plain" title='Matlab' style={{fontSize:"45px"}}></i>
             &nbsp; 
-            <i class="devicon-keras-plain-wordmark" title='Keras' style={{fontSize:"45px"}}></i>
-            &nbsp; 
-            <i class="devicon-numpy-plain-wordmark" title='NumPy' style={{fontSize:"45px"}}></i>
-            &nbsp; 
+          <i class="devicon-c-plain" title='C ' style={{fontSize:"45px"}}></i>
+            &nbsp;     
            
         
           
